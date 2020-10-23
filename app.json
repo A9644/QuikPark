@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "QuikPark",
+    "slug": "QuikPark",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.yourcompany.QuikPark",
+      "versionCode": 1,
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "B9AB95010629B1AE7473DB4A7C68F93C9972BD32",
+          "apiKey": "AIzaSyBwlGTly6RnmfQuiRcZv9_2iz8Tky0tHMk"
+        }
+      }
+    }
+  }
+}
